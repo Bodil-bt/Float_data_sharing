@@ -9,4 +9,10 @@ The two files link on "Profile": Profile==X is the same station in both.
 ascending=590, >600 = surface. Bottom (park) data = Stage==290.
 
 Columns: PRES = pressure (dbar); Depth = metric depth (m, positive down);
-TEMP (degC); PSAL (practical salinity); DO_umolKg (umol/kg); DO_mgL (mg/L).
+TEMP (degC); PSAL (practical salinity); DO_umolKg (umol/kg); DO_mgL (mg/L);
+Chla_adjusted (mg/m3, Chl-a with BGC-Argo dark-count + NPQ correction,
+  doi 10.13155/35385; area-specific slope SCALE_CHLA not applied);
+Bscat (m-1, TRIDENTE optical backscatter); Fdom (TRIDENTE fluorescent
+  dissolved organic matter, relative units);
+Nitrate (uM, from SUNA); Sulfide (SUNA UV-residual hydrogen-sulfide PROXY,
+  a relative indicator, NOT a calibrated concentration).
